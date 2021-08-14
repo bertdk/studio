@@ -12,8 +12,9 @@ export const Card: FunctionComponent<CardProps> = ({
     className={`p-6 max-w-sm rounded-xl shadow-md flex space-x-4 ${
       active && "cursor-pointer"
     } bg-green-50 bg-opacity-40`}
-    onClick={() => {
-      if (active) window.location.href = url;
+    onClick={(e) => {
+      e.preventDefault();
+      if (active) window.open(url);
     }}
   >
     <div className="flex-shrink-0 flex items-center">
