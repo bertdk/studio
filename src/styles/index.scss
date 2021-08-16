@@ -9,4 +9,13 @@
   .text-input {
     @apply mb-4 border-solid hover:border-gray-dark border-2 px-3 py-1 border-gray rounded;
   }
+  .button {
+    @apply py-4 rounded cursor-pointer w-5/12 disabled:cursor-not-allowed;
+  }
+  .button-primary {
+    @apply button bg-green-600 text-white disabled:bg-gray-dark hover:bg-green-500;
+  }
+  .button-secondary {
+    @apply button bg-white border-green-600 hover:bg-green-50 border-2 disabled:bg-gray-light disabled:border-none;
+  }
 }

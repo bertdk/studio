@@ -19,7 +19,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      borderStyle: ["hover"],
+      borderStyle: ["hover", "disabled"],
+      cursor: ["hover", "disabled"],
       backgroundColor: ["disabled"],
     },
   },
