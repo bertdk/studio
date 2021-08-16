@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { NavLink } from "react-router-dom";
-import { aboutPath, contactPath, productsPath } from "./constants";
+import { aboutPath, contactPath, productsPath } from "../constants";
 
 export const Menu: FunctionComponent<MenuProps> = () => {
   const items: MenuItem[] = [

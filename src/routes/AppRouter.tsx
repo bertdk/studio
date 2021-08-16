@@ -2,12 +2,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import { Products } from "../components/Products";
 import { About } from "../components/About";
 import { Contact } from "../components/Contact";
-import {
-  aboutPath,
-  basePath,
-  contactPath,
-  productsPath,
-} from "../components/constants";
+import { aboutPath, basePath, contactPath, productsPath } from "../constants";
 
 export const AppRouter = () => (
   <Switch>

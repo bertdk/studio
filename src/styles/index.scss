@@ -6,4 +6,7 @@
   .link {
     @apply text-blue-400 border-b-2 hover:border-solid border-none border-blue-400;
   }
+  .text-input {
+    @apply mb-4 border-solid hover:border-gray-dark border-2 px-3 py-1 border-gray rounded;
+  }
 }

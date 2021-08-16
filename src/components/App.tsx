@@ -7,7 +7,7 @@ import { AppRouter } from "../routes/AppRouter";
 export const App: FunctionComponent = () => (
   <BrowserRouter>
     <Menu />
-    <div className="px-4 sm:px-8">
+    <div className="px-4 sm:px-8 text-black">
       <AppRouter />
     </div>
   </BrowserRouter>
