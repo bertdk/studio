@@ -9,7 +9,7 @@ export const Menu: FunctionComponent<MenuProps> = () => {
     { name: "Contact", url: contactPath },
   ];
   return (
-    <div className="md:grid md:grid-cols-5 md:gap-4 w-100 py-4 px-4 sm:px-8 bg-green-700 text-white">
+    <nav className="md:grid md:grid-cols-5 md:gap-4 w-100 py-4 px-4 sm:px-8 bg-green-700 text-white">
       <div className="hidden md:col-span-2 md:flex md:flex-row">
         <img
           className="h-6 w-6"
@@ -31,7 +31,7 @@ export const Menu: FunctionComponent<MenuProps> = () => {
           </div>
         ))}
       </div>
-    </div>
+    </nav>
   );
 };
 type MenuItem = {
