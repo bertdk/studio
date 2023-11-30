@@ -18,6 +18,12 @@ export const Products = () => (
           active: true,
         },
         {
+          name: "MatchMate",
+          description: "Manage your tournaments with friends",
+          url: "matchmate",
+          active: true,
+        },
+        {
           name: "aMAZEing",
           description: "Maze game",
           url: "maze",
